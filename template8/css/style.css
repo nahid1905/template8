@@ -1,0 +1,126 @@
+
+*{
+	user-select: none;
+}
+.main{
+	background-color: #773131;
+	width: 100%;
+	height: 1000px;
+		
+}
+.main h2{
+	display: inline-block;
+	margin-left: 137px;
+	color: white;
+}
+.main > p{
+	display: inline-block;
+	color: #afaaaa;
+	margin-left: 5px;
+}
+.inbox{
+	width: 80%;
+	margin: 0 auto;
+}
+.first{
+	background-color: #561834;
+	height: 50px;
+}
+.first ul{
+	display: inline-block;
+	color: white;
+	margin-left: 10px;
+}
+.first ul li{
+	display: inline-block;
+	margin-left: 5px;
+	padding: 5px;
+	cursor: pointer;
+	transition: linear 0.5s;
+}
+.first ul li:not(:first-of-type){
+	border-left: 1px solid yellow;
+
+}
+.first ul li:hover{
+	background-color: rgb(34,169,131);
+	padding: 5px 5px;
+	border-radius: 5px;
+}
+.second{
+	background-color: #81ab81;
+	width: 100%;
+	height: 180px;
+	margin-top: 5px;
+	position: relative;	
+	background-image: url(../images/2.png);
+	background-repeat: no-repeat;
+}
+.second h1{
+	color: white;
+	margin-left: 180px;
+	position: absolute;
+	margin-top: 20px;
+	font-size: 3em;
+}
+.second p{
+	margin: 0px 390px 0px 180px;
+	color: #dad0d0;
+	position: absolute;
+	margin-top: 80px;
+}
+
+.third{
+	margin-top: 10px;
+	background-color: white;
+	display: inline-block;
+	width: 100%;
+	height: 568px;
+	position: relative;
+}
+.third .left{
+	background-color: #9191ff;
+	height: 100%;
+	float: left;
+	width: 20%;
+	position: relative;
+	display: inline-block;
+	
+}
+.third .left ul{
+	position: absolute;
+	margin-top: 20px;
+	display: inline-block;
+	
+}
+
+.third .left li{
+	width: 70%;
+	margin: 10 auto;
+	color: white;
+	border-bottom: 1px solid #d3cdd8;
+	display: inline-block;
+	cursor: pointer;
+	transition: linear 0.5s;
+}
+.third .left li:hover{
+	background-color: rgb(34,169,131);
+	padding: 3px 3px;
+	border-radius: 5px;
+
+}
+.third .right{
+	height: 100%;
+	float: right;
+	width: 80%;	
+}
+
+.third .right h2{
+	color: #656d94;
+	margin: 20px 74px 20px 74px;
+}
+.third .right p{
+	position: absolute;
+	color:#00000085;
+	margin: 20px 74px 20px 74px;
+}
